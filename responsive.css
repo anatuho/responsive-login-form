@@ -1,0 +1,85 @@
+@media (max-width:900px){
+    .loginForm{
+        width: 500px;
+        margin: 30px 0;
+    }
+    .loginForm .judulForm{
+        font-size: 22px;
+        padding: 15px 0;
+    }
+    .loginForm form{
+        padding: 10px 20px 35px 20px;
+    }
+    form img.logo{
+        width: 130px;
+        margin-top: 40px;
+    }
+    form .grid p.namaBrand{
+        font-size: 20px;
+    }
+    form .grid .inputKolom label{
+        font-size: 12px;
+    }
+    form .grid .inputKolom input,
+    form .grid .loginBtn button{
+        height: 30px;
+        font-size: 16px;
+    }
+    form .grid .verify *{
+        font-size: 12px;
+    }
+    form .grid .loginBtn button a{
+        font-size: 16px;
+    }
+    form .grid .punyaAkun *{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+@media (max-width:569px){
+    .loginForm{
+        width: 300px;
+        height: 450px;
+    }
+    .loginForm .judulForm{
+        font-size: 22px;
+    }
+    form .grid {
+        display: block;
+    }
+
+    form .grid .brand{
+        display: none;
+    }
+
+    
+    form .grid .inputKolom label{
+        font-size: 12px;
+    }
+    form .grid .inputKolom input,
+    form .grid .loginBtn button{
+        height: 30px;
+        font-size: 16px;
+    }
+    form .grid .verify .verify-item{
+        text-align: center;
+        display: block;
+        font-size: 12px;
+    }
+    form .grid .verify a.lupaPass{
+        float: none;
+    }
+    form .grid .loginBtn button a{
+        font-size: 16px;
+    }
+    form .grid .punyaAkun *{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    
+}
